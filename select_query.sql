@@ -34,10 +34,12 @@ ORDER BY `hour` ASC;
 
 /* 6. Selezionare tutti i corsi di laurea magistrale */
 
-SELECT `level` 
+SELECT  `name`, `level` 
 FROM `degrees` 
 WHERE `level` = 'magistrale';
 
 /* 7. Da quanti dipartimenti è composta l'università? */
+
+
 
 /* 8. Quanti sono gli insegnanti che non hanno un numero di telefono? */
