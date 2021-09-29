@@ -17,6 +17,7 @@ SELECT `name`, `surname`, `date_of_birth`
 FROM `students` 
 WHERE `date_of_birth` <= '1990-09-28'
 ORDER BY `date_of_birth` DESC;
+--* alternative: DATE_SUB o TIMESTAMPDIFF o DATE_DIFF(ma c'é il problema dei bisestili in quest'ultima)
 
 /* 4. Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di laurea */
 
